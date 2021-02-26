@@ -19,17 +19,6 @@ export default defineConfig({
   publicPath: './',
   dynamicImport: {},
 
-  externals: {
-    react: 'window.React',
-  },
-  // headScripts: [
-  //   'https://cdn.bootcdn.net/ajax/libs/react/17.0.1/umd/react.production.min.js'
-  // ],
-  // scripts: [
-  //   // 'https://cdn.bootcdn.net/ajax/libs/react/17.0.1/umd/react.development.js',
-  //   'https://cdn.bootcdn.net/ajax/libs/react/17.0.1/umd/react.production.min.js'
-  // ],
-
   // 按需引入
   // import { Button } from 'kenshin'; // 这里会按需引入样式
   // extraBabelPlugins: [
