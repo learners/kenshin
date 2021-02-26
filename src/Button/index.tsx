@@ -3,4 +3,9 @@ import classNames from 'classnames'
 import omit from 'rc-util/lib/omit'
 import './index.css'
 
-export default ()=> <button>hello world</button>
+
+export default ({ text, click }: { text: string; click: () => void }) => (
+  <button className="button" onClick={click}>
+    {text}
+  </button>
+)

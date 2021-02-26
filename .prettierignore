@@ -3,5 +3,3 @@
 **/*.html
 package.json
 .umi
-.umi-production
-.umi-test

@@ -4,8 +4,10 @@
   "printWidth": 80,
   "overrides": [
     {
-      "files": ".prettierrc",
-      "options": { "parser": "json" }
+      "files": ".prettierrc.json",
+      "options": {
+        "parser": "json"
+      }
     }
   ]
 }
