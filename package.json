@@ -1,6 +1,30 @@
 {
   "name": "kenshin",
   "version": "1.0.0",
+  "description": "React UI Components",
+  "keywords": [
+    "umi",
+    "react",
+    "frontend",
+    "component"
+  ],
+  "homepage": "https://github.com/learners",
+  "author": "learners",
+  "contributors": [
+    {
+      "name": "richard",
+      "email": "richard.lam@my.com",
+      "url": "https://github.com/yibhou"
+    },
+    {
+      "name": "xyx650",
+      "email": "475815694@qq.com",
+      "url": "https://github.com/xyx650"
+    }
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "types/index.d.ts",
   "files": [
     "es",
     "lib",
@@ -18,18 +42,15 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
   },
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "typings": "types/index.d.ts",
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
       "prettier --write"
     ],
     "*.ts?(x)": [
       "prettier --parser=typescript --write"
+    ],
+    "package.json": [
+      "sort-package-json"
     ]
   },
   "dependencies": {
@@ -44,7 +65,11 @@
     "gh-pages": "^3.0.0",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
+    "sort-package-json": "^1.49.0",
     "typescript": "^4.2.2",
     "yorkie": "^2.0.0"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
   }
 }
