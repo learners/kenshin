@@ -8,6 +8,7 @@
 # production
 dist
 docs-dist
+
 es
 lib
 
@@ -21,5 +22,5 @@ lib
 .env.local
 
 # ide
-/.vscode
-/.idea
+.vscode
+.idea
