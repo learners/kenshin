@@ -9,6 +9,10 @@
     "component"
   ],
   "homepage": "https://github.com/learners",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:learners/kenshin.git"
+  },
   "author": "learners",
   "contributors": [
     {
