@@ -11,11 +11,26 @@
     "strict": true,
     "skipLibCheck": true,
     "paths": {
-      "@/*": ["src/*"],
-      "@@/*": ["src/.umi/*"]
+      "@/*": [
+        "src/*"
+      ],
+      "@@/*": [
+        "src/.umi/*"
+      ]
     },
     "allowSyntheticDefaultImports": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "dist", "docs", "es", "lib", "types", "test", "**/__test__"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "docs",
+    "es",
+    "lib",
+    "types",
+    "test",
+    "**/__test__"
+  ]
 }

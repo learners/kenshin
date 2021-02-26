@@ -2,4 +2,5 @@
 **/*.ejs
 **/*.html
 package.json
+tsconfig.json
 .umi
