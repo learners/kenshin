@@ -1,5 +1,3 @@
-import pkg from './package.json';
-
 export default {
   esm: {
     type: 'babel',
@@ -11,8 +9,8 @@ export default {
     lazy: true,
   },
   umd: {
-    name: pkg.name,
-    file: pkg.name,
+    name: 'kenshin',
+    file: 'kenshin',
     minFile: true,
   },
   lessInBabelMode: true,
