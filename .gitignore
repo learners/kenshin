@@ -4,13 +4,12 @@
 /node_modules
 /npm-debug.log*
 /yarn-error.log
-/yarn.lock
 /package-lock.json
 /alicloud.md
 
 # production
-/dist
-/docs-dist
+dist
+docs-dist
 
 # misc
 .DS_Store
@@ -22,8 +21,8 @@
 .env.local
 
 # ide
-/.vscode
-/.idea
+.vscode
+.idea
 
 es
 lib
