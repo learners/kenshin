@@ -15,6 +15,7 @@ export default () => <Button text="hello world11111" click={() => alert('hello')
  */
 import React from 'react';
 
-export default () => <h2 style={{ boxShadow: '0 2px 15px rgba(0,0,0,0.1)', padding: '5px 20px' }}>iframe 模式</h2>
-
+export default () => (
+  <h2 style={{ boxShadow: '0 2px 15px rgba(0,0,0,0.1)', padding: '5px 20px' }}>iframe 模式</h2>
+);
 ```

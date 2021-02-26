@@ -1,15 +1,23 @@
+import pkg from './package.json';
+
 export default {
   esm: {
     type: 'babel',
-    importLibToEs: true
+    minify: false,
+    importLibToEs: true,
   },
   cjs: {
     type: 'babel',
-    lazy: true //是否开启 lazy require 对于工具来说推荐开启，可加速命令行执行速度，同时减少依赖和耦合
+    lazy: true,
   },
-  umd: {},
-  // doc: {
-  //   base: '/dist'
-  // },
-  disableTypeCheck: true
-}
+  umd: {
+    name: pkg.name,
+    file: pkg.name,
+    minFile: true,
+  },
+  lessInBabelMode: true,
+  // 是否提取样式文件
+  extractCSS: true,
+  // 是否禁用类型检测
+  disableTypeCheck: false,
+};
