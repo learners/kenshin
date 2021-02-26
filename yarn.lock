@@ -2016,6 +2016,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/classnames@^2.2.11":
+  version "2.2.11"
+  resolved "http://mingjie.ltd:4873/@types%2fclassnames/-/classnames-2.2.11.tgz#2521cc86f69d15c5b90664e4829d84566052c1cf"
+  integrity sha512-2koNhpWm3DgWRp5tpkiJ8JGc1xTn2q0l+jUNUE7oMKXUf5NpI9AIdC4kbjGNFBdHtcxBD18LAksoudAVhFKCjw==
+
 "@types/color-convert@*":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/color-convert/-/color-convert-2.0.0.tgz#8f5ee6b9e863dcbee5703f5a517ffb13d3ea4e22"
@@ -2753,10 +2758,10 @@
     umi-webpack-bundle-analyzer "3.6.0"
     zlib "1.0.5"
 
-"@umijs/preset-dumi@1.1.5":
-  version "1.1.5"
-  resolved "http://mingjie.ltd:4873/@umijs%2fpreset-dumi/-/preset-dumi-1.1.5.tgz#b316931f783c6aea2bea06dcb6dfdf138f52e42a"
-  integrity sha512-+fOF+8y0kFpIn/rV1i+BuoiJKFIbiGRKZF6BWypO+Hz+zruDcOMh1Q+86cw55IjGdHikkRQBH85dyUxCMai0tg==
+"@umijs/preset-dumi@1.1.6":
+  version "1.1.6"
+  resolved "http://mingjie.ltd:4873/@umijs%2fpreset-dumi/-/preset-dumi-1.1.6.tgz#ab9dfdfd09019d7bcb00562cbfe1560bffd58efa"
+  integrity sha512-qB4Qepww6ZdZUSeHFS020cE4SzxcKzsBW99NJs3h4st7FKP7UA6bWgnUc65PAzq0R/BlwIPQqJyJ0iuDL9GIVQ==
   dependencies:
     "@babel/core" "^7.7.2"
     "@babel/generator" "^7.7.2"
@@ -2772,7 +2777,7 @@
     copy-text-to-clipboard "^2.2.0"
     deepmerge "^4.2.2"
     dumi-assets-types "1.0.0"
-    dumi-theme-default "1.0.5"
+    dumi-theme-default "1.0.6"
     enhanced-resolve "^4.1.1"
     github-slugger "^1.3.0"
     hast-util-has-property "^1.0.4"
@@ -5435,21 +5440,21 @@ dumi-assets-types@1.0.0:
   resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-1.0.0.tgz#d5368cb11045b203bf1ef1080e553b2287a2ec81"
   integrity sha512-7nhSeWM15vybbUAMPLZsdls2jKoHB2UU4P1RM6kLPucuS8eC/HSmufquFqTTYtX4oIDLHGtil/dVtMreNGwhdA==
 
-dumi-theme-default@1.0.5:
-  version "1.0.5"
-  resolved "http://mingjie.ltd:4873/dumi-theme-default/-/dumi-theme-default-1.0.5.tgz#f019c68cb00ae4ef4aea854b6509084c8a96e3cd"
-  integrity sha512-6AIn3RxgtRkEmGvZ2MKBvOcd9kh8jkTVHo5QRfjyPkRR8mlCLvIy6nMrcsrDpgsZ6re6CCJ015BJafnl0pPSbg==
+dumi-theme-default@1.0.6:
+  version "1.0.6"
+  resolved "http://mingjie.ltd:4873/dumi-theme-default/-/dumi-theme-default-1.0.6.tgz#4f9aff984b26f03a3d67a04739124f48957a81fd"
+  integrity sha512-jQ8AiV635fav/mLw3ATmcbLPHVuS/Nuxm0izWGh8H1Q9KGGzqJgKqnm0YAifO8QudtlSJwiR+7tJNRmH3gp61A==
   dependencies:
     prism-react-renderer "^1.1.1"
     prismjs "^1.21.0"
     rc-tabs "^11.7.1"
 
-dumi@^1.1.4:
-  version "1.1.5"
-  resolved "http://mingjie.ltd:4873/dumi/-/dumi-1.1.5.tgz#7f0cb3f9eba4d82e5e8d3df0432992d34d6e3c53"
-  integrity sha512-4QwWEhFF90oJBkGUGjk5rGNTIqzsBY73efXXprDaaSAMkmsdGhsqwJlCfWFHr4mXrCF7+AfgmBtfwwRCLpyELQ==
+dumi@^1.1.6:
+  version "1.1.6"
+  resolved "http://mingjie.ltd:4873/dumi/-/dumi-1.1.6.tgz#dbd9bbf5ebc90399079fca77f4cbc2ccb5246dbe"
+  integrity sha512-W8LicTnRGfX29x5LnxSd3kl3qQRm3ZpCiXT010RW2jgILhxmu4qM5ta4EIE0Xo1tj/4L+Ht30SeXxvKYvMH7XQ==
   dependencies:
-    "@umijs/preset-dumi" "1.1.5"
+    "@umijs/preset-dumi" "1.1.6"
     umi "^3.0.0"
 
 duplexer3@^0.1.4:
