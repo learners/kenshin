@@ -8,11 +8,6 @@ export default {
     type: 'babel',
     lazy: true,
   },
-  umd: {
-    name: 'kenshin',
-    file: 'kenshin',
-    minFile: true,
-  },
   lessInBabelMode: true,
   // 是否提取样式文件
   extractCSS: true,
